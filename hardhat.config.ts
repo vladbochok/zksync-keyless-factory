@@ -17,12 +17,19 @@ export default {
         hardhat: {
             zksync: true
         },
-        zkSyncTestnet: {
+        zkSyncGoerliTestnet: {
             url: "https://testnet.era.zksync.dev",
             ethNetwork: "goerli",
             zksync: true,
             verifyURL:
               "https://zksync2-testnet-explorer.zksync.dev/contract_verification",
+        },
+        zkSyncSepoliaTestnet: {
+            url: "https://sepolia.era.zksync.dev",
+            ethNetwork: "sepolia",
+            zksync: true,
+            verifyURL:
+                "https://explorer.sepolia.era.zksync.dev/contract_verification",
         },
         zkSyncMainnet: {
             url: "https://mainnet.era.zksync.io",

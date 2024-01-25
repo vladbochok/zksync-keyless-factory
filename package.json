@@ -22,6 +22,6 @@
   },
   "scripts": {
     "compile": "hardhat compile",
-    "deploy": "hardhat deploy-zksync --script /src/deploy.ts"
+    "deploy": "hardhat deploy-zksync --script /deploy/deploy.ts"
   }
 }
